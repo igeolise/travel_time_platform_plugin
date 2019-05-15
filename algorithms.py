@@ -379,7 +379,7 @@ class AdvancedAlgorithmBase(AlgorithmBase):
 
 
 class TimeMapAlgorithm(AdvancedAlgorithmBase):
-    url = 'https://api.traveltimeapp.com/v4/time-map'
+    url = 'http://api.traveltimeapp.com/v4/time-map'
     accept_header = 'application/vnd.wkt+json'
 
     _name = 'time_map'
